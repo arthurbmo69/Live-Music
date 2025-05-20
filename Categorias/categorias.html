@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link rel="stylesheet" href="css/estilos-categorias.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="../Login-Criar/logo.png" alt="Logo">
+        <nav class="navgation">
+            <a href="/Login-Criar/Login/indexLogin.html">Início</a>
+            <a href="/Planos/planos.html">Planos</a>
+            <a href="/Categorias/categorias.html">Categorias</a>
+            <a href="/Perfil-usuario/index.html">Perfil do Usuário</a>
+        </nav>
+    </header>
+
+    <div class="barra-lateral">
+        <!-- Conteúdo opcional da barra lateral -->
+    </div>
+
+    <div class="container">
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Samba">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Samba</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Sertanejo">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Sertanejo</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Funk">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Funk</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="MPB">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>MPB</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Trap">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Trap</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Forró">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Forró</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Hip Hop">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Hip Hop</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Rock">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Rock</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Pop">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Pop</span>
+        </div>
+
+        <div class="categoria-item" role="button" tabindex="0" aria-label="Gospel">
+            <div class="botao-categorias" style="background-image: url('img/forro.png');"></div>
+            <span>Gospel</span>
+        </div>
+    </div>
+
+<footer class="player">
+
+  <!-- ÁUDIO real -->
+  <audio id="audio-player" src="/Artistas/Forro/"></audio>
+
+  <!-- ESQUERDA: Info da música -->
+  <div class="player-esquerda">
+    <img src="/Artistas/Forro/Joao-gomes/img/joao-gomes-perfil-225x225.jpg" alt="Capa" class="capa-musica" />
+    <div class="info-musica">
+      <span class="nome-musica">Digo Ou Não Digo</span>
+      <span class="nome-artista">João Gomes</span>
+    </div>
+  </div>
+
+  <!-- CENTRO: Controles -->
+  <div class="player-centro">
+    <div class="controles-musica">
+      <button aria-label="Anterior">&#9198;</button>
+      <button class="botao-play" aria-label="Tocar/Pausar">&#9654;</button>
+      <button aria-label="Próxima">&#9197;</button>
+    </div>
+    <div class="barra-progresso-container">
+      <span class="tempo-inicio">0:00</span>
+      <div class="barra-progresso">
+        <div class="progresso"></div>
+      </div>
+      <span class="tempo-fim">0:00</span>
+    </div>
+  </div>
+
+  <!-- DIREITA: Volume -->
+  <div class="player-direita">
+    <div class="volume-visual">
+      <button class="botao-volume" aria-label="Volume">
+        <svg class="icone-volume" viewBox="0 0 24 24" fill="none">
+          <path d="M4 9v6h4l5 5V4L8 9H4z" fill="white" />
+        </svg>
+      </button>
+      <div class="volume-waves">
+        <span class="wave wave1"></span>
+        <span class="wave wave2"></span>
+        <span class="wave wave3"></span>
+      </div>
+    </div>
+    <input type="range" class="barra-volume" min="0" max="100" value="50" aria-label="Controle de volume" />
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
