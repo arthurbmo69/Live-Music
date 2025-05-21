@@ -1,70 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Perfil do Usuário</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/a2d9b60d60.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Header fixo -->
   <header>
-    <h2 class="logo">Logo</h2>
+    <a href="/Categorias/categorias.html"><img class="logo" src="../Login-Criar/logo-branca.png" alt="Logo" /></a>
     <nav class="navgation">
-      <a href="indexLogin.html">Início</a>
+      <a href="/Login-Criar/Login/indexLogin.html">Início</a>
       <a href="/Planos/planos.html">Planos</a>
       <a href="/Categorias/categorias.html">Categorias</a>
       <a href="/Perfil-usuario/index.html">Perfil do Usuário</a>
     </nav>
-</header>
+  </header>
+
   <!-- Conteúdo principal -->
-  <div class="content">
-    <div class="profile-header">
-      <img src="https://via.placeholder.com/100" alt="Foto de Perfil" class="profile-pic">
-      <div class="user-info">
-        <h2>Nome do Usuário</h2>
+  <main class="perfil-wrapper">
+    <section class="perfil-topo">
+      <img src="img/foto-perfil.png" alt="Foto de perfil" class="avatar" />
+      <div class="info-user">
+        <h1>Nome do Usuário</h1>
         <p>@nomeusuario</p>
       </div>
-      <button class="edit-btn">Editar Perfil</button>
-    </div>
+      <button class="btn-editar">Editar Perfil</button>
+    </section>
 
-    <section class="stats">
-      <div class="stat-box">
-        <h3>120</h3>
-        <p>Músicas Curtidas</p>
+    <section class="estatisticas">
+      <div class="card">
+        <h2><span>120</span><br>Músicas Curtidas</h2>
       </div>
-      <div class="stat-box">
-        <h3>35</h3>
-        <p>Artistas Seguidos</p>
+      <div class="card">
+        <h2><span>35</span><br>Artistas Seguidos</h2>
       </div>
-      <div class="stat-box">
-        <h3>10</h3>
-        <p>Playlists</p>
+      <div class="card">
+        <h2><span>10</span><br>Playlists</h2>
       </div>
     </section>
 
-    <section class="favorites">
-      <h3>Músicas Curtidas</h3>
-      <ul class="music-list">
-        <li><span>🎵</span> Nome da música 1</li>
-        <li><span>🎵</span> Nome da música 2</li>
-        <li><span>🎵</span> Nome da música 3</li>
+    <section class="musicas-curtidas">
+      <h2>Músicas Curtidas</h2>
+      <ul>
+        <li><i class="fas fa-music"></i> Nome da música 1</li>
+        <li><i class="fas fa-music"></i> Nome da música 2</li>
+        <li><i class="fas fa-music"></i> Nome da música 3</li>
+        <li><i class="fas fa-music"></i> Nome da música 4</li>
+        <li><i class="fas fa-music"></i> Nome da música 5</li>
       </ul>
     </section>
-  </div>
-    <!-- Player -->
-<footer class="music-player">
-  <div class="song-info">
-    <img src="https://via.placeholder.com/50" alt="Capa" />
-    <div>
-      <strong>Nome da música</strong>
-      <p>Nome do artista</p>
-    </div>
-  </div>
-  <div class="player-controls">
-    <button>⏮️</button>
-    <button>▶️</button>
-    <button>⏭️</button>
-  </div>
-</footer>
+  </main>
 </body>
 </html>

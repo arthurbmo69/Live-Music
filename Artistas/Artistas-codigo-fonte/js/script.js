@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- Botão Play/Pause com troca de ícone ▶ ⏸ ----
+  // ---- Botão Play/Pause central ▶ ⏸ ----
   if (botaoPlay && audio) {
     botaoPlay.addEventListener('click', () => {
       const isPlayIcon = botaoPlay.textContent.trim() === '▶';
@@ -50,10 +50,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+// ---- Atalho: Barra de espaço para Play/Pause ----
+document.addEventListener('keydown', (e) => {
+  // Ignora se estiver digitando em campos de input/textarea
+  const tag = document.activeElement.tagName.toLowerCase();
+  if (tag === 'input' || tag === 'textarea') return;
+
+  if (e.code === 'Space') {
+    e.preventDefault(); // evita rolagem da página
+    if (audio.paused) {
+      audio.play();
+      botaoPlay.textContent = '⏸';
+    } else {
+      audio.pause();
+      botaoPlay.textContent = '▶';
+    }
+  }
+});
+
+  
   // ---- Atualiza tempo total e tempo atual ----
   if (audio && progresso && tempoInicio && tempoFim) {
     audio.addEventListener('loadedmetadata', () => {
-      // Mostra tempo total da música
       tempoFim.textContent = formatarTempo(audio.duration);
     });
 
@@ -114,6 +132,40 @@ document.addEventListener('DOMContentLoaded', () => {
       e.stopPropagation();
       btn.classList.toggle('favorito');
       btn.textContent = btn.classList.contains('favorito') ? '❤️' : '♡';
+    });
+  });
+
+  // ---- Tocar música ao clicar na div ou botão ----
+  const musicas = document.querySelectorAll('.item-musica');
+  const capaPlayer = document.querySelector('.capa-musica');
+  const nomeMusica = document.querySelector('.nome-musica');
+  const nomeArtista = document.querySelector('.nome-artista');
+  const player = document.querySelector('.player');
+
+  musicas.forEach(musica => {
+    musica.addEventListener('click', (event) => {
+      if (event.target.closest('button') && !event.target.classList.contains('btn-play-individual')) return;
+
+      const botaoPlayIndividual = musica.querySelector('.btn-play-individual');
+      if (!botaoPlayIndividual) return;
+
+      const src = botaoPlayIndividual.dataset.src;
+      const title = botaoPlayIndividual.dataset.title;
+      const artist = botaoPlayIndividual.dataset.artist;
+      const cover = botaoPlayIndividual.dataset.cover;
+
+      if (src && title && artist && cover) {
+        audio.src = src;
+        audio.play();
+        botaoPlay.textContent = '⏸';
+
+        nomeMusica.textContent = title;
+        nomeArtista.textContent = artist;
+        capaPlayer.src = cover;
+
+        // Exibe o player se estiver oculto
+        player.classList.add('player-visivel');
+      }
     });
   });
 });

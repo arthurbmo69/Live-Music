@@ -1,18 +1,23 @@
-/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+:root {
+  --bg: #000;
+  --text: #fff;
+  --accent: #ccc;
+  --hover: #1a1a1a;
+  --border: #333;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background-color: #121212;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
   padding-top: 80px;
 }
 
@@ -22,179 +27,285 @@ header {
   left: 0;
   width: 100%;
   padding: 15px 40px;
+  background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
   z-index: 100;
 }
 
-.logo{
+.logo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
-.navgation a{
-    position: relative;
-    font-size: 1.1em;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
+.navgation a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  position: relative;
 }
 
-.navgation a::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background: #fff;
-    border-radius: 5px;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .5s;
+.navgation a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--text);
+  bottom: -4px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: right;
 }
 
-.navgation a:hover::after{
-    transform-origin: left;
-    transform: scaleX(1);
+.navgation a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
-
-/* Título */
-.titulo {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2rem;
-}
-
-/* Container principal */
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 20px;
-    padding: 0 20px; /* Padding lateral para telas menores */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-/* Cartões dos planos */
-.planos {
-    display: flex;
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.plano {
+  background-color: #121212;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 300px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.plano:hover {
+  background-color: var(--hover);
+  transform: translateY(-5px);
+}
+
+.plano h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.preco {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.plano ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+  text-align: left;
+}
+
+.plano ul li {
+  margin: 0.5rem 0;
+}
+
+.plano button {
+  background-color: var(--text);
+  color: var(--bg);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.plano button:hover {
+  background-color: var(--accent);
+  color: #000;
+}
+
+.destaque {
+  border: 1px solid var(--accent);
+}
+
+/* Modal base */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal.aberto {
+  display: flex;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.modal-conteudo {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  width: 90%;
+  max-width: 400px;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-conteudo h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.modal-conteudo p {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+#formulario-checkout input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.botoes-modal {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.botoes-modal button {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirmar,
+.confirmar-final {
+  background: #fff;
+  color: #000;
+}
+
+.confirmar:hover,
+.confirmar-final:hover {
+  background: #ccc;
+}
+
+.cancelar,
+.cancelar-final {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.cancelar:hover,
+.cancelar-final:hover {
+  background: #333;
+}
+
+/* Carrossel com slides dinâmicos */
+.carrossel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.carrossel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carrossel-slide {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carrossel-slide .grupo-planos {
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.seta {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 10px;
+}
+
+.seta.esquerda {
+  left: 0;
+}
+
+.seta.direita {
+  right: 0;
+}
+
+/* Modal de Plano Atual */
+#modal-plano-atual .modal-conteudo {
+  position: relative;
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fechar-modal:hover {
+  color: var(--accent);
+}
+
+
+@media (max-width: 768px) {
+  .carrossel-slide .grupo-planos {
     flex-direction: column;
     align-items: center;
-    background-color: rgba(117, 200, 224, 1);
-    width: 295px;
-    max-width: 100%;
-    height: 470px;
-    border-radius: 15px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-/* Títulos dos planos */
-.TituloParagrafos01, .TituloParagrafos02, .TituloParagrafos03 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.TituloParagrafos01 { color: white; }
-.TituloParagrafos02 { color: rgb(60, 159, 252); }
-.TituloParagrafos03 { color: rgba(111, 144, 237, 1); }
-
-/* Lista de benefícios */
-.lista-dos-planos {
-    color: white;
-    font-size: 18px;
-    width: 100%;
-    list-style-type: disc;
-    padding-left: 20px;
-    text-align: left;
-    flex-grow: 1;
-}
-
-/* Botão "Assine" */
-.botoes-dos-planos {
-    background-color: white;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 7px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-
-
-
-
-
-/* 📱 Responsividade */
-@media (max-width: 768px) {
-    .cabecalho {
-        justify-content: right;
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px;
-    }
-
-    .botao-cadastro, .botao-login {
-        width: 100px;
-        font-size: 14px;
-        margin: 5px;
-    }
-
-    .titulo {
-        font-size: 1.8rem;
-        margin-top: 20px;
-    }
-
-    .container {
-        flex-direction: column;
-        padding: 0 10px;
-    }
-
-    .planos {
-        width: 100%;
-        height: auto;
-    }
-
-    .botoes-dos-planos {
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .botao-cadastro, .botao-login {
-        width: 90px;
-        font-size: 12px;
-        padding: 5px;
-    }
-
-    .botao-login{
-        margin-right: 20px;
-    }
-
-    .planos {
-        padding: 15px;
-    }
-
-    .lista-dos-planos {
-        font-size: 16px;
-    }
-
-    .titulo {
-        font-size: 1.5rem;
-    }
-
-    .botoes-dos-planos {
-        padding: 10px;
-        font-size: 14px;
-    }
+  }
 }
