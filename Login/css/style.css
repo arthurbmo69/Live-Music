@@ -27,7 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../login.png') no-repeat;
+    background: url('/Login/login.png') no-repeat;
     background-size: cover;
     background-position: center;
     
