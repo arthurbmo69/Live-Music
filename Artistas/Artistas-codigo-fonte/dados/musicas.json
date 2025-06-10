@@ -620,6 +620,426 @@
     "artista": "Michael Jackson",
     "src": "/Artistas/Pop/Michael-jackson/music/Michael Jackson - Earth Song.mp3",
     "capa": "/Artistas/Pop/Michael-jackson/img/Earth-Song.jpg"
+  },
+
+  {
+    "titulo": "In Da Club",
+    "artista": "50 Cent",
+    "src": "/Artistas/Rap/50-cent/music/50 Cent - In Da Club Official Music Video.mp3",
+    "capa": "/Artistas/Rap/50-cent/img/In-da-Club.jpeg"
+  },
+
+  {
+    "titulo": "Just a Lil Bit",
+    "artista": "50 Cent",
+    "src": "/Artistas/Rap/50-cent/music/50 Cent - Just A Lil Bit.mp3",
+    "capa": "/Artistas/Rap/50-cent/img/Just-a-Lil-Bit.jpeg"
+  },
+
+  {
+    "titulo": "Many Men",
+    "artista": "50 Cent",
+    "src": "/Artistas/Rap/50-cent/music/50 Cent - Many Men Wish Death Dirty Version.mp3",
+    "capa": "/Artistas/Rap/50-cent/img/Many-Main.jpeg"
+  },
+
+  {
+    "titulo": "Rap God",
+    "artista": "Eminem",
+    "src": "/Artistas/Rap/Eminem/music/Eminem - Rap God Explicit.mp3",
+    "capa": "/Artistas/Rap/Eminem/img/Rap-God.png"
+  },
+
+  {
+    "titulo": "Venom",
+    "artista": "Eminem",
+    "src": "/Artistas/Rap/Eminem/music/Eminem - Venom.mp3",
+    "capa": "/Artistas/Rap/Eminem/img/Venom.jpeg"
+  },
+
+  {
+    "titulo": "Without Me",
+    "artista": "Eminem",
+    "src": "/Artistas/Rap/Eminem/music/Eminem - Without Me Official Music Video.mp3",
+    "capa": "/Artistas/Rap/Eminem/img/Without Me.png"
+  },
+
+  {
+    "titulo": "Nias in Paris",
+    "artista": "Jay Z",
+    "src": "/Artistas/Rap/Jay-z/music/Jay-Z Kanye West - Nias In Paris Explicit.mp3",
+    "capa": "/Artistas/Rap/Jay-z/img/Niggas-in-Paris.jpg"
+  },
+  
+  {
+    "titulo": "Renegade",
+    "artista": "Jay Z",
+    "src": "/Artistas/Rap/Jay-z/music/Jay-Z - Renegade Feat Eminem.mp3",
+    "capa": "/Artistas/Rap/Jay-z/img/Renegade.jpeg"
+  },
+
+  {
+    "titulo": "Run This Town",
+    "artista": "Jay Z",
+    "src": "/Artistas/Rap/Jay-z/music/JAY-Z - Run This Town ft Rihanna Kanye West.mp3",
+    "capa": "/Artistas/Rap/Jay-z/img/Run-This-Town.jpg"
+  },
+
+  {
+    "titulo": "Type Shit",
+    "artista": "Travis Scott",
+    "src": "/Artistas/Rap/Travis-scott/music/Future Metro Boomin Travis Scott Playboi Carti - Type Shit Offic.mp3",
+    "capa": "/Artistas/Rap/Travis-scott/img/Type-Shit.jpeg"
+  },
+
+  {
+    "titulo": "My Eyes",
+    "artista": "Travis Scott",
+    "src": "/Artistas/Rap/Travis-scott/music/Travis Scott - MY EYES.mp3",
+    "capa": "/Artistas/Rap/Travis-scott/img/My-Eyes.jpg"
+  },
+
+  {
+    "titulo": "Sicko Mode",
+    "artista": "Travis Scott",
+    "src": "/Artistas/Rap/Travis-scott/music/Travis Scott - SICKO MODE.mp3",
+    "capa": "/Artistas/Rap/Travis-scott/img/Sicko-Mode.jpeg"
+  },
+
+  {
+    "titulo": "Look At Me",
+    "artista": "Xxx Tentation",
+    "src": "/Artistas/Rap/Xxxtentacion/music/XXXTENTACION - Look At Me Audio.mp3",
+    "capa": "/Artistas/Rap/Xxxtentacion/img/Look-At-Me.jpeg"
+  },
+
+  {
+    "titulo": "Hope",
+    "artista": "Xxx Tentation",
+    "src": "/Artistas/Rap/Xxxtentacion/music/hope.mp3",
+    "capa": "/Artistas/Rap/Xxxtentacion/img/Hope.png"
+  },
+
+  {
+    "titulo": "SAD",
+    "artista": "Xxx Tentation",
+    "src": "/Artistas/Rap/Xxxtentacion/music/XXXTENTACION - SAD.mp3",
+    "capa": "/Artistas/Rap/Xxxtentacion/img/Sad.jpg"
+  },
+
+  {
+    "titulo": "Black In Black",
+    "artista": "AC DC",
+    "src": "/Artistas/Rock/AC-DC/music/ACDC - Back In Black.wav",
+    "capa": "/Artistas/Rock/AC-DC/img/Black-In-Black.jpg"
+  },
+
+  {
+    "titulo": "Hells Bells",
+    "artista": "AC DC",
+    "src": "/Artistas/Rock/AC-DC/music/ACDC - Hells Bells.wav",
+    "capa": "/Artistas/Rock/AC-DC/img/Hells-Bells.jpeg"
+  },
+
+  {
+    "titulo": "Thunderstruck",
+    "artista": "AC DC",
+    "src": "/Artistas/Rock/AC-DC/music/ACDC - Thunderstruck.wav",
+    "capa": "/Artistas/Rock/AC-DC/img/Thuderstruck.jpg"
+  },
+  
+  {
+    "titulo": "Dont Cry",
+    "artista": "Gund n Roses",
+    "src": "/Artistas/Rock/guns-n-roses/music/Guns N_ Roses - Don_t Cry.mp3",
+    "capa": "/Artistas/Rock/guns-n-roses/img/Dont-Cry.jpg"
+  },
+
+  {
+    "titulo": "November Rain",
+    "artista": "Gund n Roses",
+    "src": "/Artistas/Rock/guns-n-roses/music/Guns N_ Roses - November Rain.mp3",
+    "capa": "/Artistas/Rock/guns-n-roses/img/November-Rain.jpg"
+  },
+
+  {
+    "titulo": "Sweet Child O Mine ",
+    "artista": "Gund n Roses",
+    "src": "/Artistas/Rock/guns-n-roses/music/Guns N_ Roses - Sweet Child O_ Mine.mp3",
+    "capa": "/Artistas/Rock/guns-n-roses/img/Sweet-Child-O-Mine.jpeg"
+  },
+
+  {
+    "titulo": "In The End ",
+    "artista": "Linkin Park",
+    "src": "/Artistas/Rock/linkin-park/music/In The End.mp3",
+    "capa": "/Artistas/Rock/linkin-park/img/In-The-End.jpeg"
+  },
+
+  {
+    "titulo": "New Divide ",
+    "artista": "Linkin Park",
+    "src": "/Artistas/Rock/linkin-park/music/New Divide.mp3",
+    "capa": "/Artistas/Rock/linkin-park/img/New-Divide.jpeg"
+  },
+
+  {
+    "titulo": "One Step Closer",
+    "artista": "Linkin Park",
+    "src": "/Artistas/Rock/linkin-park/music/One Step Closer.mp3",
+    "capa": "/Artistas/Rock/linkin-park/img/One-Step-Closer.jpeg"
+  },
+
+  {
+    "titulo": "Enter Sandman",
+    "artista": "Metallica",
+    "src": "/Artistas/Rock/metallica/music/Metallica_ Enter Sandman .mp3",
+    "capa": "/Artistas/Rock/metallica/img/Enter-Sandman.jpeg"
+  },
+
+  {
+    "titulo": "Nothing Else Matters",
+    "artista": "Metallica",
+    "src": "/Artistas/Rock/metallica/music/Metallica_ Nothing Else Matters.mp3",
+    "capa": "/Artistas/Rock/metallica/img/Nothing-Else-Matters.jpeg"
+  },
+
+  {
+    "titulo": "One",
+    "artista": "Metallica",
+    "src": "/Artistas/Rock/metallica/music/Metallica_ One.mp3",
+    "capa": "/Artistas/Rock/metallica/img/One.jpeg"
+  },
+
+  {
+    "titulo": "Breed",
+    "artista": "Nirvana",
+    "src": "/Artistas/Rock/nirvana/music/Nirvana - Breed.mp3",
+    "capa": "/Artistas/Rock/nirvana/img/Breed.png"
+  },
+
+  {
+    "titulo": "In Bloom",
+    "artista": "Nirvana",
+    "src": "/Artistas/Rock/nirvana/music/Nirvana - In Bloom.mp3",
+    "capa": "/Artistas/Rock/nirvana/img/In-Bloon.jpg"
+  },
+
+  {
+    "titulo": "Oh Me",
+    "artista": "Nirvana",
+    "src": "/Artistas/Rock/nirvana/music/Nirvana - Oh Me (online-audio-converter.com).mp3",
+    "capa": "/Artistas/Rock/nirvana/img/Oh-Me.jpeg"
+  },
+
+  {
+    "titulo": "Neon",
+    "artista": "Ana Castela",
+    "src": "/Artistas/Sertanejo/Ana-castela/music/Ana Castela - Neon (Clipe Oficial)(M4A_128K).mp3",
+    "capa": "/Artistas/Sertanejo/Ana-castela/img/Ana-castela-M1-225x225.jpg"
+  },
+
+  {
+    "titulo": "Nosso Quadro",
+    "artista": "Ana Castela",
+    "src": "/Artistas/Sertanejo/Ana-castela/music/Ana Castela - Nosso Quadro.mp3",
+    "capa": "/Artistas/Sertanejo/Ana-castela/img/Ana-castela-M2-225x225.jpg"
+  },
+
+  {
+    "titulo": "Pipoco",
+    "artista": "Ana Castela",
+    "src": "/Artistas/Sertanejo/Ana-castela/music/Ana Castela - Pipoco.mp3",
+    "capa": "/Artistas/Sertanejo/Ana-castela/img/Ana-catela-M3-225x225.jpg"
+  },
+
+  {
+    "titulo": "Apelido Carinhoso",
+    "artista": "Gusttavo Lima",
+    "src": "/Artistas/Sertanejo/Gusttavo-lima/music/Gusttavo Lima - Apelido Carinhoso.mp3",
+    "capa": "/Artistas/Sertanejo/Gusttavo-lima/img/gustta-lima-M1-225x225.jpg"
+  },
+
+  {
+    "titulo": "Balada",
+    "artista": "Gusttavo Lima",
+    "src": "/Artistas/Sertanejo/Gusttavo-lima/music/Gusttavo Lima - Balada (Tchê Tchê Rere).mp3",
+    "capa": "/Artistas/Sertanejo/Gusttavo-lima/img/gusttavo-lima-M2-225x225.jpg"
+  },
+
+  {
+    "titulo": "Ficha Limpa",
+    "artista": "Gusttavo Lima",
+    "src": "/Artistas/Sertanejo/Gusttavo-lima/music/Gusttavo Lima - Ficha Limpa.mp3",
+    "capa": "/Artistas/Sertanejo/Gusttavo-lima/img/gusttavo-lima-M3-225x225.jpg"
+  },
+
+  {
+    "titulo": "Cê Topa",
+    "artista": "Luan Santana",
+    "src": "/Artistas/Sertanejo/Luan-santana/music/Luan Santana - Cê Topa.mp3",
+    "capa": "/Artistas/Sertanejo/Luan-santana/img/luan-M1-225x225.jpg"
+  },
+
+  {
+    "titulo": "Meteoro",
+    "artista": "Luan Santana",
+    "src": "/Artistas/Sertanejo/Luan-santana/music/Luan Santana - Meteoro.mp3",
+    "capa": "/Artistas/Sertanejo/Luan-santana/img/luan-M2-225x225.jpg"
+  },
+
+  {
+    "titulo": "Te Esperando",
+    "artista": "Luan Santana",
+    "src": "/Artistas/Sertanejo/Luan-santana/music/Luan Santana - Te Esperando.mp3",
+    "capa": "/Artistas/Sertanejo/Luan-santana/img/luan-M3-225x225.jpg"
+  },
+
+  {
+    "titulo": "10 Porcento",
+    "artista": "Maiara e Maraisa",
+    "src": "/Artistas/Sertanejo/Maiara e Maraisa/music/Maiara _ Maraisa  10 porceno.mp3",
+    "capa": "/Artistas/Sertanejo/Maiara e Maraisa/img/M1-225x225.jpg"
+  },
+
+  {
+    "titulo": "Medo Bobo",
+    "artista": "Maiara e Maraisa",
+    "src": "/Artistas/Sertanejo/Maiara e Maraisa/music/Maiara _ Maraisa  Medo Bobo.mp3",
+    "capa": "/Artistas/Sertanejo/Maiara e Maraisa/img/M2-225x225.jpg"
+  },
+
+  {
+    "titulo": "Sorte Que Cê Beija Bem",
+    "artista": "Maiara e Maraisa",
+    "src": "/Artistas/Sertanejo/Maiara e Maraisa/music/Maiara e Maraisa  Sorte Que Cê Beija Bem.mp3",
+    "capa": "/Artistas/Sertanejo/Maiara e Maraisa/img/M3-225x225.jpg"
+  },
+
+  {
+    "titulo": "CIUMEIRA",
+    "artista": "Marilia Mendonça",
+    "src": "/Artistas/Sertanejo/Marilia-mendeonca/music/Marília Mendonça - CIUMEIRA.mp3",
+    "capa": "/Artistas/Sertanejo/Marilia-mendeonca/img/marilia-mendonca-decretos-reais.jpeg"
+  },
+  
+  {
+    "titulo": "Infiel",
+    "artista": "Marilia Mendonça",
+    "src": "/Artistas/Sertanejo/Marilia-mendeonca/music/Marília Mendonça - Infiel.mp3",
+    "capa": "/Artistas/Sertanejo/Marilia-mendeonca/img/Infiel.jpeg"
+  },
+
+  {
+    "titulo": "TODO MUNDO VAI SOFRER",
+    "artista": "Marilia Mendonça",
+    "src": "/Artistas/Sertanejo/Marilia-mendeonca/music/Marília Mendonça - TODO MUNDO VAI SOFRER.mp3",
+    "capa": "/Artistas/Sertanejo/Marilia-mendeonca/img/o-que-falta-em-voce-sou-eu-MM.jpeg"
+  },
+
+  {
+    "titulo": "Bodak Yellow",
+    "artista": "Cardi B",
+    "src": "/Artistas/Trap/Cardi-B/music/Cardi-B-Bodak-Yellow.mp3",
+    "capa": "/Artistas/Trap/Cardi-B/img/Bodak-Yellow.jpg"
+  },
+
+  {
+    "titulo": "Bongos",
+    "artista": "Cardi B",
+    "src": "/Artistas/Trap/Cardi-B/music/Cardi-B-Bongos.mp3",
+    "capa": "/Artistas/Trap/Cardi-B/img/Bongos.png"
+  },
+
+  {
+    "titulo": "Up",
+    "artista": "Cardi B",
+    "src": "/Artistas/Trap/Cardi-B/music/Cardi-B-Up.mp3",
+    "capa": "/Artistas/Trap/Cardi-B/img/Up.jpeg"
+  },
+
+  {
+    "titulo": "Invejoso",
+    "artista": "Oruan",
+    "src": "/Artistas/Trap/Oruam/music/INVEJOSO-Oruam.mp3",
+    "capa": "/Artistas/Trap/Oruam/img/Invejoso.jpg"
+  },
+
+  {
+    "titulo": "Terra Prometida",
+    "artista": "Oruan",
+    "src": "/Artistas/Trap/Oruam/music/Oruam-TERRA-PROMETIDA.mp3",
+    "capa": "/Artistas/Trap/Oruam/img/Terra-Prometida.jpg"
+  },
+
+  {
+    "titulo": "Tropa do Oruan",
+    "artista": "Oruan",
+    "src": "/Artistas/Trap/Oruam/music/TROPA-DO-ORUAM.mp3",
+    "capa": "/Artistas/Trap/Oruam/img/Tropa-do-Urso.jpg"
+  },
+
+  {
+    "titulo": "Flow Espacial",
+    "artista": "Teto",
+    "src": "/Artistas/Trap/Teto/music/Flow Espacial.mp3",
+    "capa": "/Artistas/Trap/Teto/img/Flow-Espacial.jpeg"
+  },
+
+  {
+    "titulo": "Dia Azul",
+    "artista": "Teto",
+    "src": "/Artistas/Trap/Teto/music/Teto - Dia Azul.mp3",
+    "capa": "/Artistas/Trap/Teto/img/Dia-Azul.jpg"
+  },
+
+  {
+    "titulo": "Mustang Preto",
+    "artista": "Teto",
+    "src": "/Artistas/Trap/Teto/music/TETO - Mustang Preto.mp3",
+    "capa": "/Artistas/Trap/Teto/img/Mustang-Preto.jpg"
+  },
+
+  {
+    "titulo": "Inefavel",
+    "artista": "Xamã",
+    "src": "/Artistas/Trap/Xama/music/Xama-INEFAVEL.mp3",
+    "capa": "/Artistas/Trap/Xama/img/Inefavel.jpg"
+  },
+
+  {
+    "titulo": "Leão",
+    "artista": "Xamã",
+    "src": "/Artistas/Trap/Xama/music/Xama-Leão.mp3",
+    "capa": "/Artistas/Trap/Xama/img/Leao.jpg"
+  },
+
+  {
+    "titulo": "Malvadão 3",
+    "artista": "Xamã",
+    "src": "/Artistas/Trap/Xama/music/Xama-Malvadão 3.mp3",
+    "capa": "/Artistas/Trap/Xama/img/Malvadao-3.jpeg"
+  },
+
+  {
+    "titulo": "333",
+    "artista": "Matuê",
+    "src": "/Artistas/Trap/Matue/music/Matuê-333.mp3",
+    "capa": "/Artistas/Trap/Matue/img/333.jpeg"
+  },
+
+  {
+    "titulo": "A Morte do Autotune",
+    "artista": "Matuê",
+    "src": "/Artistas/Trap/Matue/music/Matuê-A-Morte-do-Autotune.mp3",
+    "capa": "/Artistas/Trap/Matue/img/A-Morte-do-Autotune.jpeg"
+  },
+
+  {
+    "titulo": "Kenny G",
+    "artista": "Matuê",
+    "src": "/Artistas/Trap/Matue/music/Matuê-Kenny-G.mp3",
+    "capa": "/Artistas/Trap/Matue/img/Kenny-G.jpeg"
   }
   
 ]
