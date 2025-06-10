@@ -783,4 +783,44 @@ header {
   .barra-volume {
     width: 80px;
   }
+
+   .player {
+    height: 70px; /* Reduz a altura do player em dispositivos móveis */
+    padding: 0 10px; /* Ajusta o padding */
+  }
+
+  .player-esquerda {
+    min-width: auto;
+  }
+
+  .capa-musica {
+    width: 50px; /* Ajusta o tamanho da capa da música */
+    height: 50px;
+  }
+
+  .nome-musica {
+    font-size: 12px; /* Ajusta o tamanho da fonte da música */
+  }
+
+  .nome-artista {
+    font-size: 12px; /* Ajusta o tamanho da fonte do nome do artista */
+  }
+
+  .controles-musica button {
+    font-size: 20px; /* Ajusta o tamanho do botão de controle */
+  }
+
+  .botao-play {
+    font-size: 16px; /* Ajusta o tamanho do botão de play */
+    padding: 6px 10px; /* Ajusta o padding do botão */
+  }
+
+  .barra-volume {
+    width: 80px; /* Ajusta a largura da barra de volume */
+  }
+
+  /* Remover o botão de volume em dispositivos móveis */
+  .player-direita {
+    display: none; /* Esconde a seção do volume */
+  }
 }
