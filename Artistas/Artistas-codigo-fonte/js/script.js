@@ -8,6 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const tempoInicio = document.querySelector('.tempo-inicio');
   const tempoFim = document.querySelector('.tempo-fim');
 
+
+  const menuHamburguer = document.querySelector('.menu-hamburguer');
+  const navgation = document.querySelector('.navgation');
+
+  if (menuHamburguer && navgation) {
+      menuHamburguer.addEventListener('click', () => {
+          menuHamburguer.classList.toggle('active');
+          navgation.classList.toggle('active');
+      });
+  }
+  
   // ---- Volume com ondas ----
   function atualizarCorVolume(valor) {
     const porcentagem = `${valor}%`;
