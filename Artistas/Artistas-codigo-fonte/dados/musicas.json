@@ -1,0 +1,625 @@
+[
+  {
+    "_comentario": "Início das Músicas de João Gomes",
+    "titulo": "Digo Ou Não Digo",
+    "artista": "João Gomes",
+    "src": "/Artistas/Forro/Joao-gomes/music/Digo-ou-Nao-Digo.mp3",
+    "capa": "/Artistas/Forro/Joao-gomes/img/Meu-Pedaco-de-Pecado.jpeg"
+  },
+
+  {
+    "titulo": "Meu Pedaço de Pecado",
+    "artista": "João Gomes",
+    "src": "/Artistas/Forro/Joao-gomes/music/Meu-Pedaco-de-Pecado.mp3",
+    "capa": "/Artistas/Forro/Joao-gomes/img/Meu-Pedaco-de-Pecado.jpeg"
+  },
+
+   {
+    "_comentario": "Final das Músicas de João Gomes",
+    "titulo": "Coraçao de Vaqueiro",
+    "artista": "João Gomes",
+    "src": "/Artistas/Forro/Joao-gomes/music/Coracao-de-Vaqueiro.mp3",
+    "capa": "/Artistas/Forro/Joao-gomes/img/Coracao-de-Vaqueiro.jpg"
+  },
+
+    {
+    "_comentario": "Inicio das Músicas de Luiz Gonzaga",
+    "titulo": "Asa Branca",
+    "artista": "Luiz Gonzaga",
+    "src": "/Artistas/Forro/Luiz-gonzaga/music/Asa-Branca.mp3",
+    "capa": "/Artistas/Forro/Luiz-gonzaga/img/Asa-Branca.jpg"
+  },
+
+  {
+    "titulo": "O Xote das Meninas",
+    "artista": "Luiz Gonzaga",
+    "src": "/Artistas/Forro/Luiz-gonzaga/music/O-Xote-das-meninas.mp3",
+    "capa": "/Artistas/Forro/Luiz-gonzaga/img/O-Xote-das-Meninas.jpg"
+  },
+
+    {
+    "_comentario": "Final das Músicas de Luiz Gonzaga",
+    "titulo": "Sala de Reboco",
+    "artista": "Luiz Gonzaga",
+    "src": "/Artistas/Forro/Luiz-gonzaga/music/Sala-de-Reboco.mp3",
+    "capa": "/Artistas/Forro/Luiz-gonzaga/img/Sala-de-Reboco.jpg"
+  }, 
+
+  {
+    "_comentario": "Inicío das Músicas de Nattan",
+    "titulo": "Morena",
+    "artista": "Nattan",
+    "src": "/Artistas/Forro/Nattan/music/19 MORENA - NATTAN VIDEO OFICIAL - YouTube.mp3",
+    "capa": "/Artistas/Forro/Nattan/img/Morena.jpg"
+  },
+
+   {
+    "titulo": "Pelado",
+    "artista": "Nattan",
+    "src": "/Artistas/Forro/Nattan/music/Pelado.mp3",
+    "capa": "/Artistas/Forro/Nattan/img/Pelado.jpg"
+  }, 
+  
+   {
+    "_comentario": "Final das Músicas de Nattan",
+    "titulo": "Não Me Esqueceu, Né?",
+    "artista": "Nattan",
+    "src": "/Artistas/Forro/Nattan/music/Nao-Me-Esqueceu-Ne.mp3",
+    "capa": "/Artistas/Forro/Nattan/img/Nao-Me-Esqueceu.jpg"
+  },
+
+     {
+    "_comentario": "Início das Músicas de Safadão",
+    "titulo": "Porsche Azul",
+    "artista": "Wesley Safadão",
+    "src": "/Artistas/Forro/Wesley-safadao/music/Porsche-Azul.mp3",
+    "capa": "/Artistas/Forro/Wesley-safadao/img/Porsche-Azul.jpg"
+  },
+
+  {
+    "titulo": "Pega o Guanabara e Vem",
+    "artista": "Wesley Safadão",
+    "src": "/Artistas/Forro/Wesley-safadao/music/Pega-o-Guanabara.mp3",
+    "capa": "/Artistas/Forro/Wesley-safadao/img/Pega-o-Guanabara.jpg"
+  },
+
+   {
+    "titulo": "Noite Fracassada",
+    "artista": "Wesley Safadão",
+    "src": "/Artistas/Forro/Wesley-safadao/music/Noite-Fracassada.mp3",
+    "capa": "/Artistas/Forro/Wesley-safadao/img/Noite-Fracassada.jpg"
+  },
+
+  {
+    "titulo": "Letícia",
+    "artista": "Zé Vaqueiro",
+    "src": "/Artistas/Forro/Ze-vaqueiro/music/Ze Vaqueiro - Leticia.mp3",
+    "capa": "/Artistas/Forro/Ze-vaqueiro/img/M3-ze-vaqueiro-225x225.jpg"
+  },
+
+  {
+    "titulo": "Meu Mel",
+    "artista": "Zé Vaqueiro",
+    "src": "/Artistas/Forro/Ze-vaqueiro/music/Ze Vaqueiro - Meu Mel.mp3",
+    "capa": "/Artistas/Forro/Ze-vaqueiro/img/M2-ze-vaqueiro-225x225.jpg"
+  },
+
+  {
+    "titulo": "Tenho Medo",
+    "artista": "Zé Vaqueiro",
+    "src": "/Artistas/Forro/Ze-vaqueiro/music/Ze Vaqueiro - Tenho Medo.mp3",
+    "capa": "/Artistas/Forro/Ze-vaqueiro/img/M1-ze-vaqueiro-225x225.jpg"
+  },
+
+  {
+    "titulo": "Envolver",
+    "artista": "Anitta",
+    "src": "/Artistas/Funk/Anitta/music/Anitta - Envolver Official.mp3",
+    "capa": "/Artistas/Funk/Anitta/img/M1-anitta-225x225.jpg"
+  },
+  
+  {
+    "titulo": "Ai Papai",
+    "artista": "Anitta",
+    "src": "/Artistas/Funk/Anitta/music/Anitta feat Mc Danny e Hitmaker - AI PAPAI.mp3",
+    "capa": "/Artistas/Funk/Anitta/img/M2-anitta-225x225.jpg"
+  },
+
+  {
+    "titulo": "La Loto",
+    "artista": "Anitta",
+    "src": "/Artistas/Funk/Anitta/music/TINI Becky G Anitta - La Loto.mp3",
+    "capa": "/Artistas/Funk/Anitta/img/M3-anitta-225x225.jpg"
+  },
+
+  {
+    "titulo": "Combathy",
+    "artista": "Lexa",
+    "src": "/Artistas/Funk/Lexa/music/Combathy.mp3",
+    "capa": "/Artistas/Funk/Lexa/img/M2-lexa-225x225.jpg"
+  },
+
+  {
+    "titulo": "Bate Palma",
+    "artista": "Lexa",
+    "src": "/Artistas/Funk/Lexa/music/Jottape e Lexa - Bate Palma.mp3",
+    "capa": "/Artistas/Funk/Lexa/img/M3-lexa-225x225.png"
+  },
+
+  {
+    "titulo": "Quebrar Seu Coração",
+    "artista": "Lexa",
+    "src": "/Artistas/Funk/Lexa/music/Lexa e Luisa Sonza - Quebrar Seu Coracao.mp3",
+    "capa": "/Artistas/Funk/Lexa/img/M1-lexa-225x225.jpg"
+  },
+
+  {
+    "titulo": "Bem Melhor",
+    "artista": "Mc Cabelinho",
+    "src": "/Artistas/Funk/Mc-cabelinho/music/MC CABELINHO - BEM MELHOR.mp3",
+    "capa": "/Artistas/Funk/Mc-cabelinho/img/M1-cabelinho_resized.jpg"
+  },
+
+  {
+    "titulo": "Eu te Avisei",
+    "artista": "Mc Cabelinho",
+    "src": "/Artistas/Funk/Mc-cabelinho/music/MC CABELINHO - EU TE AVISEI.mp3",
+    "capa": "/Artistas/Funk/Mc-cabelinho/img/M2-cabelinho_resized.jpg"
+  },
+
+  {
+    "titulo": "Minha Cura",
+    "artista": "Mc Cabelinho",
+    "src": "/Artistas/Funk/Mc-cabelinho/music/MC CABELINHO - MINHA CURA.mp3",
+    "capa": "/Artistas/Funk/Mc-cabelinho/img/M3-cabelinho_resized.jpg"
+  },
+
+  {
+    "titulo": "Cheia de Marra",
+    "artista": "Mc Livinho",
+    "src": "/Artistas/Funk/Mc-livinho/music/MC Livinho - Cheia de Marra.mp3",
+    "capa": "/Artistas/Funk/Mc-livinho/img/M1-livinho_resized.jpg"
+  },
+
+  {
+    "titulo": "Swing Semanal",
+    "artista": "Mc Livinho",
+    "src": "/Artistas/Funk/Mc-livinho/music/MC Livinho - Swing Semanal.mp3",
+    "capa": "/Artistas/Funk/Mc-livinho/img/M2-livinho_resized.jpg"
+  },
+
+  {
+    "titulo": "Tudo de Bom",
+    "artista": "Mc Livinho",
+    "src": "/Artistas/Funk/Mc-livinho/music/MC Livinho - Tudo de Bom KondZilla .mp3",
+    "capa": "/Artistas/Funk/Mc-livinho/img/M3-livinho_resized.jpg"
+  },
+
+  {
+    "titulo": "Casei Com a Putaria",
+    "artista": "Mc Ryan",
+    "src": "/Artistas/Funk/Mc-ryan/music/MC Paiva e MC Ryan SP - Casei Com a Putaria Love Funk Kotim.mp3",
+    "capa": "/Artistas/Funk/Mc-ryan/img/M1-ryansp_resized.jpg"
+  },
+
+  {
+    "titulo": "Sereno da Madrugada",
+    "artista": "Mc Ryan",
+    "src": "/Artistas/Funk/Mc-ryan/music/MC Ryan SP e MC Don Juan - Sereno da Madrugada.mp3",
+    "capa": "/Artistas/Funk/Mc-ryan/img/M2-ryansp_resized.jpg"
+  },
+
+  {
+    "titulo": "Revoada do Tubarão",
+    "artista": "Mc Ryan",
+    "src": "/Artistas/Funk/Mc-ryan/music/REVOADA DO TUBARAO - Ryan Kevin Rick IG Brisola Davi Dfideliz.mp3",
+    "capa": "/Artistas/Funk/Mc-ryan/img/M3-syansp_resized.jpg"
+  },
+
+  {
+    "titulo": "Ressuscita-me",
+    "artista": "Aline Barros",
+    "src": "/Artistas/Gospel/Aline-barros/music/Aline Barros - Ressuscita-me.mp3",
+    "capa": "/Artistas/Gospel/Aline-barros/img/M1-aline_resized.jpg"
+  },
+
+  {
+    "titulo": "Sonda-me, Usa-me",
+    "artista": "Aline Barros",
+    "src": "/Artistas/Gospel/Aline-barros/music/Aline Barros - Sonda-me Usa-me.mp3",
+    "capa": "/Artistas/Gospel/Aline-barros/img/M2-aline_resized.jpg"
+  },
+
+  {
+    "titulo": "Casa do Pai",
+    "artista": "Aline Barros",
+    "src": "/Artistas/Gospel/Aline-barros/music/Casa do Pai CD Graca Aline Barros.mp3",
+    "capa": "/Artistas/Gospel/Aline-barros/img/M3-aline_resized.jpg"
+  },
+
+  {
+    "titulo": "Bom Samaritano",
+    "artista": "Anderson Freire",
+    "src": "/Artistas/Gospel/Anderson-freire/music/Anderson Freire - Bom Samaritano.mp3",
+    "capa": "/Artistas/Gospel/Anderson-freire/img/M1-anderson_resized.jpg"
+  },
+
+  {
+    "titulo": "O Mapa do Tesouro",
+    "artista": "Anderson Freire",
+    "src": "/Artistas/Gospel/Anderson-freire/music/Anderson Freire - O Mapa do Tesouro.mp3",
+    "capa": "/Artistas/Gospel/Anderson-freire/img/M2-anderson_resized.jpg"
+  },
+
+  {
+    "titulo": "Raridade",
+    "artista": "Anderson Freire",
+    "src": "/Artistas/Gospel/Anderson-freire/music/Anderson Freire - Raridade.mp3",
+    "capa": "/Artistas/Gospel/Anderson-freire/img/M3-anderson_resized.jpg"
+  },
+
+  {
+    "titulo": "Eu Navegarei",
+    "artista": "Gabriela Rocha",
+    "src": "/Artistas/Gospel/Gabriela-rocha/music/GABRIELA ROCHA - c.mp3",
+    "capa": "/Artistas/Gospel/Gabriela-rocha/img/M1-gabriela_resized.jpg"
+  },
+
+  {
+    "titulo": "Lugar Secreto",
+    "artista": "Gabriela Rocha",
+    "src": "/Artistas/Gospel/Gabriela-rocha/music/LUGAR SECRETOGABRIELA ROCHA.mp3",
+    "capa": "/Artistas/Gospel/Gabriela-rocha/img/M2-gabriela_resized.jpg"
+  },
+
+  {
+    "titulo": "Me Atraiu",
+    "artista": "Gabriela Rocha",
+    "src": "/Artistas/Gospel/Gabriela-rocha/music/Me Atraiu Letra - Gabriela Rocha.mp3",
+    "capa": "/Artistas/Gospel/Gabriela-rocha/img/M3-gabriela_resized.jpg"
+  },
+
+  {
+    "titulo": "Hey, Pai",
+    "artista": "Isadora Pompeo",
+    "src": "/Artistas/Gospel/Isadora-pompeo/music/Hey, Pai.mp3",
+    "capa": "/Artistas/Gospel/Isadora-pompeo/img/M1-isadora_resized.jpg"
+  },
+
+  {
+    "titulo": "O Nome de Jesus",
+    "artista": "Isadora Pompeo",
+    "src": "/Artistas/Gospel/Isadora-pompeo/music/O Nome de Jesus.mp3",
+    "capa": "/Artistas/Gospel/Isadora-pompeo/img/M2-isadora_resized.jpg"
+  },
+
+  {
+    "titulo": "Oi, Jesus",
+    "artista": "Isadora Pompeo",
+    "src": "/Artistas/Gospel/Isadora-pompeo/music/Oi, Jesus.mp3",
+    "capa": "/Artistas/Gospel/Isadora-pompeo/img/M3-isadora_resized.jpg"
+  },
+
+  {
+    "titulo": "Eu Escolho Deus",
+    "artista": "Thalles Roberto",
+    "src": "/Artistas/Gospel/Thalles-roberto/music/Eu Escolho Deus.mp3",
+    "capa": "/Artistas/Gospel/Thalles-roberto/img/M1-thalles_resized.jpg"
+  },
+
+  {
+    "titulo": "Mesmo Sem Entender",
+    "artista": "Thalles Roberto",
+    "src": "/Artistas/Gospel/Thalles-roberto/music/Mesmo Sem Entender.mp3",
+    "capa": "/Artistas/Gospel/Thalles-roberto/img/M2-thallis_resized.jpg"
+  },
+
+  {
+    "titulo": "Nada Além de Ti",
+    "artista": "Thalles Roberto",
+    "src": "/Artistas/Gospel/Thalles-roberto/music/Nada Além de Ti.mp3",
+    "capa": "/Artistas/Gospel/Thalles-roberto/img/M3-thalles_resized.jpg"
+  },
+
+  {
+    "titulo": "Reconvexo",
+    "artista": "Caetano Veloso",
+    "src": "/Artistas/Mpb/caetano-veloso/music/Reconvexo.mp3",
+    "capa": "/Artistas/Mpb/caetano-veloso/img/Reconvexo.jpeg"
+  },
+
+  {
+    "titulo": "Sozinho",
+    "artista": "Caetano Veloso",
+    "src": "/Artistas/Mpb/caetano-veloso/music/Sozinho.mp3",
+    "capa": "/Artistas/Mpb/caetano-veloso/img/Sozinho.jpg"
+  },
+  
+  {
+    "titulo": "Você é Linda",
+    "artista": "Caetano Veloso",
+    "src": "/Artistas/Mpb/caetano-veloso/music/Você é Linda.mp3",
+    "capa": "/Artistas/Mpb/caetano-veloso/img/Voce-e-Linda.jpeg"
+  },
+
+  {
+    "titulo": "A Banda",
+    "artista": "Chico Buarque",
+    "src": "/Artistas/Mpb/Chico-buarque/music/A Banda.mp3",
+    "capa": "/Artistas/Mpb/Chico-buarque/img/A-Banda.jpg"
+  },
+
+  {
+    "titulo": "Cálise",
+    "artista": "Chico Buarque",
+    "src": "/Artistas/Mpb/Chico-buarque/music/Cálice.mp3",
+    "capa": "/Artistas/Mpb/Chico-buarque/img/Cálise.jpg"
+  },
+
+  {
+    "titulo": "Folhetim",
+    "artista": "Chico Buarque",
+    "src": "/Artistas/Mpb/Chico-buarque/music/Folhetim.mp3",
+    "capa": "/Artistas/Mpb/Chico-buarque/img/Folhetim.png"
+  },
+
+  {
+    "titulo": "Flor de Lis",
+    "artista": "Djavan",
+    "src": "/Artistas/Mpb/Djavan/music/Flor de Lis.mp3",
+    "capa": "/Artistas/Mpb/Djavan/img/Flor-de-Lis.jpg"
+  },
+
+  {
+    "titulo": "Lilás",
+    "artista": "Djavan",
+    "src": "/Artistas/Mpb/Djavan/music/Djavan - Lilás (online-audio-converter.com).mp3",
+    "capa": "/Artistas/Mpb/Djavan/img/Lilas.jpg"
+  },
+
+  {
+    "titulo": "Um Amor Puro",
+    "artista": "Djavan",
+    "src": "/Artistas/Mpb/Djavan/music/Djavan - Um Amor Puro (online-audio-converter.com).mp3",
+    "capa": "/Artistas/Mpb/Djavan/img/Um-Amor-Puro.jpg"
+  },
+
+  {
+    "titulo": "Andar com Fé",
+    "artista": "Gilberto Gil",
+    "src": "/Artistas/Mpb/gilberto-gil/music/Andar com Fé.mp3",
+    "capa": "/Artistas/Mpb/gilberto-gil/img/Andar-com-Fe.jpg"
+  },
+
+  {
+    "titulo": "Drão",
+    "artista": "Gilberto Gil",
+    "src": "/Artistas/Mpb/gilberto-gil/music/Drão.mp3",
+    "capa": "/Artistas/Mpb/gilberto-gil/img/Drao.jpg"
+  },
+
+  {
+    "titulo": "Não Chore Mais",
+    "artista": "Gilberto Gil",
+    "src": "/Artistas/Mpb/gilberto-gil/music/Não Chore Mais.mp3",
+    "capa": "/Artistas/Mpb/gilberto-gil/img/Nao-Chore-Mais.png"
+  },
+
+  {
+    "titulo": "Erva Venenosa",
+    "artista": "Rita Lee",
+    "src": "/Artistas/Mpb/Rita-lee/music/ERVA-VENENOSA.mp3",
+    "capa": "/Artistas/Mpb/Rita-lee/img/Erva-Venenosa.png"
+  },
+
+  {
+    "titulo": "Minha Vida",
+    "artista": "Rita Lee",
+    "src": "/Artistas/Mpb/Rita-lee/music/Minha-Vida.mp3",
+    "capa": "/Artistas/Mpb/Rita-lee/img/Minha-Vida.jpeg"
+  },
+
+  {
+    "titulo": "Ovelha Negra",
+    "artista": "Rita Lee",
+    "src": "/Artistas/Mpb/Rita-lee/music/Ovelha-Negra.mp3",
+    "capa": "/Artistas/Mpb/Rita-lee/img/Ovelha-Negra.jpg"
+  },
+
+  {
+    "titulo": "Apaguei Pra Todos",
+    "artista": "Ferrugem",
+    "src": "/Artistas/Pagode/Ferrugem/music/Apaguei-Pra-Todos.mp3",
+    "capa": "/Artistas/Pagode/Ferrugem/img/M1-ferrugem.jpg"
+  },
+
+  {
+    "titulo": "Ela",
+    "artista": "Ferrugem",
+    "src": "/Artistas/Pagode/Ferrugem/music/Ela.mp3",
+    "capa": "/Artistas/Pagode/Ferrugem/img/M2-ferrugem.jpg"
+  },
+
+  {
+    "titulo": "Me Bloqueia",
+    "artista": "Ferrugem",
+    "src": "/Artistas/Pagode/Ferrugem/music/Me-Bloqueia.mp3",
+    "capa": "/Artistas/Pagode/Ferrugem/img/M3-ferrugem.png"
+  },
+
+  {
+    "titulo": "1%",
+    "artista": "Ludmila",
+    "src": "/Artistas/Pagode/Ludmila/music/1_.mp3",
+    "capa": "/Artistas/Pagode/Ludmila/img/M3-ludmilla.jpg"
+  },
+
+  {
+    "titulo": "1%",
+    "artista": "Ludmila",
+    "src": "/Artistas/Pagode/Ludmila/music/1_.mp3",
+    "capa": "/Artistas/Pagode/Ludmila/img/M3-ludmilla.jpg"
+  },
+
+  {
+    "titulo": "Saudade da Gente",
+    "artista": "Ludmila",
+    "src": "/Artistas/Pagode/Ludmila/music/Saudade-da-Gent.mp3",
+    "capa": "/Artistas/Pagode/Ludmila/img/M2-ludmila.jpeg"
+  },
+
+  {
+    "titulo": "Você Não Sabe o Que é Amor",
+    "artista": "Ludmila",
+    "src": "/Artistas/Pagode/Ludmila/music/Você-Não-Sabe-o-Que-É-Amor.mp3",
+    "capa": "/Artistas/Pagode/Ludmila/img/M3-ludmilla.jpg"
+  },
+
+  {
+    "titulo": "Coração Partido",
+    "artista": "Menos é Mais",
+    "src": "/Artistas/Pagode/Menos-e-mais/music/Coração Partido.mp3",
+    "capa": "/Artistas/Pagode/Menos-e-mais/img/M1-menosemais.jpg"
+  },
+
+  {
+    "titulo": "Melhor eu Ir",
+    "artista": "Menos é Mais",
+    "src": "/Artistas/Pagode/Menos-e-mais/music/Menos é Mais - melhor eu ir (online-audio-converter.com).mp3",
+    "capa": "/Artistas/Pagode/Menos-e-mais/img/M2-menosemais.jpg"
+  },
+
+  {
+    "titulo": "Por tão Pouco, Pagando Mal com Mal Faz Falta",
+    "artista": "Menos é Mais",
+    "src": "/Artistas/Pagode/Menos-e-mais/music/Menos é Mais 2 - Por Tão Pouco _ Pagando Mal com Mal _ Faz Falta (online-audio-converter.com).mp3",
+    "capa": "/Artistas/Pagode/Menos-e-mais/img/M3-menosemais.jpg"
+  },
+
+  {
+    "titulo": "Ainda Me Iludo",
+    "artista": "Pericles",
+    "src": "/Artistas/Pagode/Pericles/music/Pericles-Ainda-Me-Iludo.mp3",
+    "capa": "/Artistas/Pagode/Pericles/img/M1-pericles.jpg"
+  },
+
+  {
+    "titulo": "Até que Durou",
+    "artista": "Pericles",
+    "src": "/Artistas/Pagode/Pericles/music/PERICLES-ATE-QUE-DUROU.mp3",
+    "capa": "/Artistas/Pagode/Pericles/img/M2-pericles.jpg"
+  },
+
+  {
+    "titulo": "Linda Voz",
+    "artista": "Pericles",
+    "src": "/Artistas/Pagode/Pericles/music/Pericles-Linda-Voz-Ola.mp3",
+    "capa": "/Artistas/Pagode/Pericles/img/M3-pericles.jpg"
+  },
+
+  {
+    "titulo": "Ta Vendo Aquela Lua",
+    "artista": "Thiaguinho",
+    "src": "/Artistas/Pagode/Thiaguinho/music/Exaltasamba-Ta-vendo-aquela-Lua.mp3",
+    "capa": "/Artistas/Pagode/Thiaguinho/img/M1-thiaguinho.jpeg"
+  },
+
+  {
+    "titulo": "Era Uma Vez",
+    "artista": "Thiaguinho",
+    "src": "/Artistas/Pagode/Thiaguinho/music/Thiaguinho-Era-Uma-Vez.mp3",
+    "capa": "/Artistas/Pagode/Thiaguinho/img/M2-thiaguinho.jpeg"
+  },
+
+  {
+    "titulo": "Ousadia e Alegria",
+    "artista": "Thiaguinho",
+    "src": "/Artistas/Pagode/Thiaguinho/music/Thiaguinho-Ousadia-e-Alegria.mp3",
+    "capa": "/Artistas/Pagode/Thiaguinho/img/M3-thiaguinho.jpg"
+  },
+
+  {
+    "titulo": "The Way",
+    "artista": "Ariana Grande",
+    "src": "/Artistas/Pop/Ariana-grande/music/Ariana-Grande-The-Way.mp3",
+    "capa": "/Artistas/Pop/Ariana-grande/img/M1-ariana.jpg"
+  },
+
+  {
+    "titulo": "Rain On Me",
+    "artista": "Ariana Grande",
+    "src": "/Artistas/Pop/Ariana-grande/music/Lady-Gaga-Ariana-Grande-Rain-On-Me.mp3",
+    "capa": "/Artistas/Pop/Ariana-grande/img/M2-ariana.jpeg"
+  },
+  
+  {
+    "titulo": "Side To Side",
+    "artista": "Ariana Grande",
+    "src": "/Artistas/Pop/Ariana-grande/music/Side-To-Side.mp3",
+    "capa": "/Artistas/Pop/Ariana-grande/img/M3-ariana.jpg"
+  },
+
+  {
+    "titulo": "Happier Than Ever",
+    "artista": "Billie Eilish",
+    "src": "/Artistas/Pop/Billie-eilish/music/Billie-Eilish-Happier-Than-Ever.mp3",
+    "capa": "/Artistas/Pop/Billie-eilish/img/M1-billie.jpg"
+  },
+
+  {
+    "titulo": "I Love you Live At The Greek Theatre",
+    "artista": "Billie Eilish",
+    "src": "/Artistas/Pop/Billie-eilish/music/Billie-Eilish-i-love-you-Live-At-The-Greek-Theatre.mp3",
+    "capa": "/Artistas/Pop/Billie-eilish/img/M2-billie.jpg"
+  },
+
+  {
+    "titulo": "What Was I Made Fo",
+    "artista": "Billie Eilish",
+    "src": "/Artistas/Pop/Billie-eilish/music/Billie-Eilish-What-Was-I-Made-Fo.mp3",
+    "capa": "/Artistas/Pop/Billie-eilish/img/M3-billie.jpeg"
+  },
+
+  {
+    "titulo": "Frozen",
+    "artista": "Madona",
+    "src": "/Artistas/Pop/Madonna/music/Madonna-Frozen.mp3",
+    "capa": "/Artistas/Pop/Madonna/img/Frozen.jpeg"
+  },
+
+  {
+    "titulo": "Like a Virgin",
+    "artista": "Madona",
+    "src": "/Artistas/Pop/Madonna/music/Madonna-Like-A-Virgin.mp3",
+    "capa": "/Artistas/Pop/Madonna/img/Like-A-Virgin.png"
+  },
+
+  {
+    "titulo": "Ray Of Light",
+    "artista": "Madona",
+    "src": "/Artistas/Pop/Madonna/music/Madonna-Ray-Of-Light.mp3",
+    "capa": "/Artistas/Pop/Madonna/img/Ray-Of-Light.jpg"
+  },
+
+  {
+    "titulo": "Beat it",
+    "artista": "Michael Jackson",
+    "src": "/Artistas/Pop/Michael-jackson/music/Michael-Jackson-Beat-It.mp3",
+    "capa": "/Artistas/Pop/Michael-jackson/img/Beat It.png"
+  },
+
+  {
+    "titulo": "Billie-Jean",
+    "artista": "Michael Jackson",
+    "src": "/Artistas/Pop/Michael-jackson/music/Michael Jackson - Billie Jean.mp3",
+    "capa": "/Artistas/Pop/Michael-jackson/img/Billie-Jean.png"
+  },
+
+  {
+    "titulo": "Earth Song",
+    "artista": "Michael Jackson",
+    "src": "/Artistas/Pop/Michael-jackson/music/Michael Jackson - Earth Song.mp3",
+    "capa": "/Artistas/Pop/Michael-jackson/img/Earth-Song.jpg"
+  }
+  
+]

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/Login/favicon.ico" type="image/x-icon">
+  <title>Lexa</title>
+  <link rel="stylesheet" href="/Artistas/Artistas-codigo-fonte/css/estilo-artitas.css">
+</head>
+<body>
+
+    <header>
+        <a href="/Categorias/categorias.html"><img class="logo" src="/Login/img/logo-branca.png" alt="Logo"></a>
+        <nav class="navgation">
+            <a href="../../../Inicio/fonte.html">Início</a>
+            <a href="/Planos/planos.html">Planos</a>
+            <a href="/Categorias/categorias.html">Categorias</a>
+            <a href="../../../Perfil-usuario/Perfil.html">Perfil do Usuário</a>
+        </nav>
+    </header>
+
+     <div class="barra-pesquisa-container">
+      <div class="campo-pesquisa">
+        <svg class="icone-lupa" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ccc" viewBox="0 0 24 24">
+          <path d="M10 2a8 8 0 105.293 14.293l5.707 5.707 1.414-1.414-5.707-5.707A8 8 0 0010 2zm0 2a6 6 0 110 12A6 6 0 0110 4z"/>
+        </svg>
+        <input type="text" class="barra-pesquisa" placeholder="Pesquisar músicas...">
+        <ul class="resultados-pesquisa"></ul>
+      </div>
+    </div>
+
+  
+  <div class="artist-header">
+    <img src="img/lexa-perfil-225x225.jpg" alt="Foto do Artista">
+    <h1>Lexa</h1>
+  </div>
+
+  <!-- Abas com CSS puro -->
+  <input type="radio" name="tab" id="tab1" checked>
+  <input type="radio" name="tab" id="tab2">
+
+<div class="tabs">
+  <div class="tab-labels">
+    <label for="tab1">Músicas</label>
+    <label for="tab2">Biografia</label>
+  </div>
+
+  <!-- Aba 1: Músicas -->
+  <div class="tab-content content1">
+   <ul class="lista-musicas">
+  <li class="item-musica">
+    <div class="info-musica-lista">
+      <img class="foto-musica" src="img/M2-lexa-225x225.jpg" alt="Capa da música">
+      <div class="texto-musica">
+        <span class="titulo-musica">Combathy</span>
+        <span class="duracao-musica">3:06</span>
+      </div>
+    </div>
+    <div class="acoes-musica">
+      <button class="btn-favorito" title="Favoritar">♡</button>
+      <button 
+        class="btn-play-individual" 
+        data-src="music/Combathy.mp3" 
+        data-title="Envolver" 
+        data-artist="Lexa" 
+        data-cover="img/M1-Lexa-225x225.jpg">▶</button>
+    </div>
+  </li>
+
+  <li class="item-musica">
+    <div class="info-musica-lista">
+      <img class="foto-musica" src="img/M3-lexa-225x225.png" alt="Capa da música">
+      <div class="texto-musica">
+        <span class="titulo-musica">Bate Palma</span>
+        <span class="duracao-musica">3:03</span>
+      </div>
+    </div>
+    <div class="acoes-musica">
+      <button class="btn-favorito" title="Favoritar">♡</button>
+      <button 
+        class="btn-play-individual" 
+        data-src="music/Jottape e Lexa - Bate Palma.mp3" 
+        data-title="AI PAPAI" 
+        data-artist="Lexa" 
+        data-cover="img/M2-Lexa-225x225.jpg">▶</button>
+    </div>
+  </li>
+
+  <li class="item-musica">
+    <div class="info-musica-lista">
+      <img class="foto-musica" src="img/M1-lexa-225x225.jpg" alt="Capa da música">
+      <div class="texto-musica">
+        <span class="titulo-musica">Quebrar Seu Coração</span>
+        <span class="duracao-musica">2:21</span>
+      </div>
+    </div>
+    <div class="acoes-musica">
+      <button class="btn-favorito" title="Favoritar">♡</button>
+      <button 
+        class="btn-play-individual" 
+        data-src="music/Lexa e Luisa Sonza - Quebrar Seu Coracao.mp3" 
+        data-title="Quebrar Seu Coração" 
+        data-artist="Lexa" 
+        data-cover="img/M3-Lexa-225x225.png">▶</button>
+    </div>
+  </li>
+</ul>
+
+  </div>
+
+  <!-- Aba 2: Biografia -->
+  <div class="tab-content content2">
+    <div class="biografia">
+<p> Lexa é um dos nomes mais relevantes do pop e funk brasileiro atual. Nascida no Rio de Janeiro, a cantora se destacou com uma sonoridade
+   que une o ritmo contagiante do funk com influências do pop e da música eletrônica, conquistando espaço nas paradas e nas pistas de dança do país. </p>
+<p> Seu primeiro grande sucesso, <strong>“Posso Ser”</strong>, revelou seu talento e carisma, abrindo caminho para uma carreira sólida. Desde então, Lexa emplacou hits como <strong>“Sapequinha”</strong> e <strong>“Chama Ela”</strong>, 
+  que reforçam sua presença marcante e seu apelo popular. </p>
+<p> Com uma base de fãs fiel e presença constante na mídia, Lexa também atua como empresária e influenciadora, mostrando versatilidade e domínio sobre sua carreira. Sua música reflete empoderamento, alegria e conexão com as raízes do funk carioca. </p>
+<p> Lexa é sinônimo de energia, talento e representatividade. Uma artista em constante evolução, que contribui ativamente para a valorização do funk no cenário nacional. </p>
+   </div>
+  </div>
+</div>
+
+
+  <footer class="player">
+
+  <!-- ÁUDIO real -->
+  <audio id="audio-player" src="musicas/01 - Digo ou Não Digo - João Gomes.mp3"></audio>
+
+  <!-- ESQUERDA: Info da música -->
+  <div class="player-esquerda">
+    <img src="/Artistas/Forro/Joao-gomes/img/joao-gomes-perfil-225x225.jpg" alt="Capa" class="capa-musica" />
+    <div class="info-musica">
+      <span class="nome-musica">Inefavel</span>
+      <span class="nome-artista">João Gomes</span>
+    </div>
+  </div>
+
+  <!-- CENTRO: Controles -->
+  <div class="player-centro">
+    <div class="controles-musica">
+      <button aria-label="Anterior">&#9198;</button>
+      <button class="botao-play" aria-label="Tocar/Pausar">&#9654;</button>
+      <button aria-label="Próxima">&#9197;</button>
+    </div>
+    <div class="barra-progresso-container">
+      <span class="tempo-inicio">0:00</span>
+      <div class="barra-progresso">
+        <div class="progresso"></div>
+      </div>
+      <span class="tempo-fim">0:00</span>
+    </div>
+  </div>
+
+  <!-- DIREITA: Volume -->
+  <div class="player-direita">
+    <div class="volume-visual">
+      <button class="botao-volume" aria-label="Volume">
+        <svg class="icone-volume" viewBox="0 0 24 24" fill="none">
+          <path d="M4 9v6h4l5 5V4L8 9H4z" fill="white" />
+        </svg>
+      </button>
+      <div class="volume-waves">
+        <span class="wave wave1"></span>
+        <span class="wave wave2"></span>
+        <span class="wave wave3"></span>
+      </div>
+    </div>
+    <input type="range" class="barra-volume" min="0" max="100" value="50" aria-label="Controle de volume" />
+  </div>
+</footer>
+<script src="/Artistas/Artistas-codigo-fonte/js/pesquisa.js"></script>
+<script src="/Artistas/Artistas-codigo-fonte/js/script.js"></script>
+</body>
+</html>
