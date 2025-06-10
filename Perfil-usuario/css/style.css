@@ -34,36 +34,38 @@ header {
   z-index: 100;
 }
 
-.logo {
+.logo{
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
-.navgation a {
-  margin-left: 40px;
-  text-decoration: none;
-  color: var(--text);
-  font-weight: 500;
-  position: relative;
+.navgation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
 }
 
-.navgation a::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background: var(--text);
-  bottom: -4px;
-  left: 0;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-  transform-origin: right;
+.navgation a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
 }
 
-.navgation a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.navgation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
 }
 /* Perfil */
 .perfil-wrapper {
@@ -169,6 +171,23 @@ header {
   color: var(--accent);
 }
 
+.menu-hamburguer {
+    display: none;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
   .estatisticas {
@@ -184,10 +203,61 @@ header {
     width: 100%;
   }
 
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+  /* Header responsivo com menu hamburguer */
+
+  .menu-hamburguer {
+    display: block;
+  }
+
+    .navgation {
+        position: fixed;
+        top: 80px; /* Ajuste conforme a altura do seu header */
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 30px;
+        transition: left 0.3s ease;
+        z-index: 99;
+    }
+
+    .navgation.active {
+        left: 0;
+    }
+
+    .navgation a {
+        margin: 15px 0;
+        font-size: 1.2em;
+    }
+
+  .menu-hamburguer {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .menu-hamburguer span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+
+  .menu-hamburguer.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu-hamburguer.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-hamburguer.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 }

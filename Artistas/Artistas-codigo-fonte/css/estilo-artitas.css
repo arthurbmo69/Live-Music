@@ -603,24 +603,6 @@ header {
 }
 
 
-
-@media (max-width: 480px) {
-  .info-musica {
-    display: none;
-  }
-
-  .barra-volume {
-    width: 80px;
-  }
-
-  .player {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  
-  display: none;}
-}
-
 @media (max-width: 768px) {
   /* Header responsivo com menu hamburguer */
 
@@ -737,54 +719,8 @@ header {
     overflow: hidden; /* Esconde o scrollbar que ultrapassa */
   }
   /* Ajustes no player */
-  .player {
-    height: 80px;
-    padding: 0 10px;
-  }
 
-  .player-esquerda {
-    min-width: auto;
-  }
-
-  .capa-musica {
-    width: 50px;
-    height: 50px;
-  }
-
-  .nome-musica {
-    font-size: 12px;
-  }
-
-  .artista-nome {
-    font-size: 12px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-    text-align: center;
-    padding: 0 5px;
-    margin-top: 5px;
-  }
-
-    .artista-mini > * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .controles-musica button {
-    font-size: 20px;
-  }
-
-  .botao-play {
-    font-size: 16px;
-    padding: 6px 10px;
-  }
-
-  .barra-volume {
-    width: 80px;
-  }
-
-   .player {
+     .player {
     height: 70px; /* Reduz a altura do player em dispositivos móveis */
     padding: 0 10px; /* Ajusta o padding */
   }
