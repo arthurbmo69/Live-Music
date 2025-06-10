@@ -583,11 +583,12 @@ header {
   /* Ajustes nos artistas */
   .artistas-linha {
     display: flex;
+    flex-wrap: nowrap; /* Evita que os itens quebrem para a linha seguinte */
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 12px;
-    padding: 10px 0 15px 10px; /* Adicionei padding-left para alinhar melhor */
-    margin: 0 -10px 10px -10px; /* Compensa o padding */
+    padding: 10px 0 15px 10px;
+    margin: 0;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none; /* Esconde a scrollbar no Firefox */
   }
@@ -596,27 +597,27 @@ header {
     display: none; /* Esconde a scrollbar no Chrome/Safari */
   }
 
-
   .artistas-linha::-webkit-scrollbar-thumb {
     background-color: #535353;
     border-radius: 2px;
   }
 
   .artista-mini {
-    flex: 0 0 30%; /* Mostra 3 artistas por viewport */
+    flex: 0 0 auto; /* Garante que os itens não quebrem e tenham largura fixa */
     scroll-snap-align: start;
-    min-width: 0; /* Permite que o conteúdo shrink corretamente */
+    min-width: 130px; /* Garante que cada item tenha uma largura mínima */
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .artista-foto {
-    width: 80px;
-    height: 80px;
-    flex-shrink: 0; /* Evita que a imagem diminua */
+    width: 100px; /* Ajusta o tamanho das imagens */
+    height: 100px;
+    flex-shrink: 0;
+    margin-bottom: 8px;
   }
-
 
   .nome-genero {
     font-size: 18px;
@@ -628,7 +629,7 @@ header {
   }
   /* Ajustes no player */
   .player {
-    height: 80px;
+    height: 70px;
     padding: 0 10px;
   }
 
@@ -645,21 +646,22 @@ header {
     font-size: 12px;
   }
 
+  /* Ajusta o nome do artista */
   .artista-nome {
     font-size: 12px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
-    text-align: center;
     padding: 0 5px;
     margin-top: 5px;
   }
 
-    .artista-mini > * {
+  .artista-mini > * {
     margin: 0;
     padding: 0;
   }
+
 
   .controles-musica button {
     font-size: 20px;
