@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: live-music-php
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
